@@ -110,6 +110,10 @@ variable "database_route_table_tags"{
     default = {}
 }
 
+variable "database_subnet_cidr_tags"{
+    type = map
+    default = {} 
+}
 #### peering variables
 
 variable "is_peering_required"{
